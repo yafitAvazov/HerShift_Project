@@ -1,0 +1,157 @@
+.hero{
+    width: 100%;
+    min-height: 75vh;
+    color: #493b75;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 80px 10%;
+    flex-wrap: wrap;
+
+}
+.hero-text{
+    text-align: left;
+    max-width: 600px;
+
+}
+.hero-text h1{
+    font-weight: 600;
+    font-size: 70px;
+    color: #2f2266;
+    margin-bottom: 10px;
+  line-height: 1.3;
+    
+
+
+}
+.hero-text p{
+   
+    font-weight: 400;
+    font-size: 25px;
+    color: #4b4b4b;
+    line-height: 1.6;
+    max-width: 500px;
+    
+ 
+ }
+ .btn-getStart{
+    font-size: 22px;
+    color: white;
+    background-color: #f797af;
+    padding: 8px 18px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    line-height: 1.6;
+    margin-top: 5%;
+
+
+ }
+ .hero-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+    margin-left: 20%;
+
+  }
+  .features-grid {
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 10px 10%;
+    background-color: #fffbee;
+  }
+  
+  .feature-card {
+    background-color: #f4ecff;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .feature-card h3 {
+    font-size: 40px;
+    color: #78c2c6;
+    margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+
+  }
+  .feature-card h4 {
+    font-size: 24px;
+    color: #2f2266;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+  }
+  
+  .feature-card img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 10px;
+  }
+  
+ @media (max-width: 768px) {
+    .hero{
+        width: 100%;
+        min-height: 60vh;
+        color: #493b75;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding: 80px 10%;
+        flex-wrap: wrap;
+    
+    }
+    .hero-text{
+        text-align: left;
+        max-width: 200px;
+    
+    }
+    .hero-text h1{
+        font-weight: 600;
+        font-size: 35px;
+        color: #2f2266;
+        margin-bottom: 10px;
+      line-height: 1.3;
+        
+    
+    
+    }
+    .hero-text p{
+       
+        font-weight: 400;
+        font-size: 18px;
+        color: #4b4b4b;
+        line-height: 1.6;
+        max-width: 500px;
+        
+     
+     }
+     .btn-getStart{
+        font-size: 18px;
+        color: white;
+        background-color: #f797af;
+        padding: 8px 18px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        line-height: 1.6;
+        margin-top: 5%;
+    
+    
+     }
+      .hero-image img {
+        margin-left: 10%;
+    
+      }
+
+    
+}

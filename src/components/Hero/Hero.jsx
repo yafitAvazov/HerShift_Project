@@ -13,8 +13,10 @@ const Hero = () => {
     <div>
       <div className='hero container' >
           <div className='hero-text'>
-          <h1>Empowering Girls in Technology</h1>
-              <p>
+          <h1 >Empowering Girls in Technology</h1>
+         
+
+              <p >
                   We provide guided learning paths to help girls develop tech skills through meaningful projects
               </p>
               <button className='btn-getStart'>Get Started</button>

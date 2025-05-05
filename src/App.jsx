@@ -6,6 +6,7 @@ import LoginPage from './pages/LoginPage';
 import SignUpPage from './pages/SignUpPage';
 import About from './pages/about';
 import ImageCard from './components/ImageCard/ImageCard';
+import Roadmap from './components/Roadmap/Roadmap'; // או הנתיב הרלוונטי
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
     <BrowserRouter>
       <Navbar />
       <Routes>
+        <Route path="/roadmap" element={<Roadmap />} />
         <Route path="/" element={<Hero />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignUpPage />} />
